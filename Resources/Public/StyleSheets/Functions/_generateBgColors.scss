@@ -1,0 +1,8 @@
+//GENERATES .clbg-colorName classes for each color in $colors list
+.bg {
+  @each $colorName, $color in $colors {
+    &-#{$colorName} {
+      background-color: $color;
+    }
+  }
+}

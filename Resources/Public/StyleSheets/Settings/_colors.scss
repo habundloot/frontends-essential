@@ -1,0 +1,30 @@
+//FIX COLORS - DO NOT DELETE
+$black: #000;
+$white: #fff;
+
+//DEFINE INDIVIDUAL COLORS
+$light-grey: #E0E0E0;
+$dark-grey: #333333;
+$orange: #E94A29;
+
+//ASSIGN COLORS TO VARIABLES
+$primary: $orange;
+$secondary: $dark-grey;
+
+//ADD COLORS TO LIST AS DISPLAYED
+$theme-colors: () !default;
+$colors: (
+        'primary': $primary,
+        'secondary': $secondary,
+
+        'black': $black,
+        'white': $white,
+        'light-grey': $light-grey,
+        'dark-grey': $dark-grey,
+        'orange': $orange
+);
+
+
+
+
+

@@ -1,0 +1,7 @@
+
+@each $headlineClass, $headlineSize in $headlineSizes {
+  #{$headlineClass}, .#{$headlineClass} {
+    font-family: $headlineFont;
+    @include unitize(font-size, $headlineSize);
+  }
+}

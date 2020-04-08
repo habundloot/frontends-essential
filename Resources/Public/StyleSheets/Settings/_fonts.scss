@@ -1,0 +1,32 @@
+//CHANGE ONLY IF YOU KNOW WHAT YOU ARE DOING!
+$remBase: 16px;
+
+// SET FONT-SIZES
+$headlineSizes: (
+        h1: 40px,
+        h2: 32px,
+        h3: 28px,
+        h4: 24px,
+        h5: 20px,
+        h6: 16px
+);
+
+@mixin font-face($name, $file) {
+  @font-face {
+    font-family: "#{$name}";
+    src: url("../Fonts/#{$file}.eot");
+    src: url("../Fonts/#{$file}.eot?#iefix") format("embedded-opentype"),
+    url("../Fonts/#{$file}.woff") format("woff"),
+    url("../Fonts/#{$file}.ttf") format("truetype"),
+    url("../Fonts/#{$file}.svg?#webfont") format("svg");
+  }
+}
+
+// EMBED YOUR FONTS IN ../FONTS FOLDER:
+// @include font-face("FONT NAME", FILENAME);
+@include font-face("Roboto Bold", Roboto-Bold);
+@include font-face("Roboto Regular", Roboto-Regular);
+
+// SET HEADLINE AND PARAGRAPH FONT
+$headlineFont: Times, sans-serif;
+$paragraphFont: Times, sans-serif;

@@ -1,0 +1,8 @@
+//GENERATES .clfo-colorName classes for each color in $colors list
+.font-color {
+  @each $colorName, $color in $colors {
+    &-#{$colorName} {
+      color: $color !important;
+    }
+  }
+}
