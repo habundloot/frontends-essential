@@ -1,3 +1,14 @@
+//.test {
+//  @include prefix(attr, 16px, (moz webkit));
+//}
+//outputs in css:
+//
+//.test {
+//    -moz-attr: 16px;
+//    -webkit-attr: 16px;
+//    attr: 16px;
+//}
+
 @mixin prefix($attr, $value, $prefixes: (moz webkit)) {
   @each $prefix in $prefixes {
     #{'-' + $prefix + '-' + $attr}: $value;

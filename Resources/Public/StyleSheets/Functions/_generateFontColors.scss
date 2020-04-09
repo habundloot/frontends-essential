@@ -1,4 +1,6 @@
-//GENERATES .clfo-colorName classes for each color in $colors list
+// GENERATES .font-color-colorName classes for each color in $colors list in
+// ../Settings/_colors.scss
+
 .font-color {
   @each $colorName, $color in $colors {
     &-#{$colorName} {

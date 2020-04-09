@@ -1,17 +1,17 @@
-//FIX COLORS - DO NOT DELETE
+// STATIC colors - do not edit
 $black: #000;
 $white: #fff;
 
-//DEFINE INDIVIDUAL COLORS
+// DEFINE individual colors
 $light-grey: #E0E0E0;
 $dark-grey: #333333;
 $orange: #E94A29;
 
-//ASSIGN COLORS TO VARIABLES
+// ASSIGN your colors to variables
 $primary: $orange;
 $secondary: $dark-grey;
 
-//ADD COLORS TO LIST AS DISPLAYED
+// ADD colors to your list as displayed
 $theme-colors: () !default;
 $colors: (
         'primary': $primary,

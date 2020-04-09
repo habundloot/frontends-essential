@@ -1,3 +1,6 @@
+//CALCULATES rem size based on settings in
+// ../Settings/_fonts.scss
+
 @function calculateRem($size) {
   $remSize: $size / $remBase;
   @return $remSize * 1rem;

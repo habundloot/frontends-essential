@@ -1,10 +1,13 @@
 //CHANGE PATH OF BOOTSTRAP VENDOR IF NECESSARY
-//IMPORT NECESSARY SCSS OF BOOTSTRAP FROM VENDOR FOLDER
+
+//NECESSARY bootstrap files that need to be imported
+
 @import "../../Vendor/bootstrap/scss/functions";
 @import "../../Vendor/bootstrap/scss/variables";
 @import "../../Vendor/bootstrap/scss/mixins";
 
-//IMPORT OPTIONAL SCSS OF BOOTSTRAP FROM VENDOR FOLDER
+//OPTIONAL bootstrap files (delete what you don't need)
+
 @import "../../Vendor/bootstrap/scss/alert";
 @import "../../Vendor/bootstrap/scss/badge";
 @import "../../Vendor/bootstrap/scss/breadcrumb";

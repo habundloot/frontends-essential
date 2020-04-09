@@ -1,4 +1,6 @@
-//GENERATES .clbg-colorName classes for each color in $colors list
+// GENERATES .bg-colorName classes for each color in $colors list in
+// ../Settings/_colors.scss
+
 .bg {
   @each $colorName, $color in $colors {
     &-#{$colorName} {

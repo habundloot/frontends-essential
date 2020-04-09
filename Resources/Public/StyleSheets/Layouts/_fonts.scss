@@ -1,3 +1,6 @@
+// SETS body font-family to the one set in
+// ../Settings/..fonts.scss
+
 body {
   font-family: $paragraphFont;
   @include unitize(font-size, 16px);

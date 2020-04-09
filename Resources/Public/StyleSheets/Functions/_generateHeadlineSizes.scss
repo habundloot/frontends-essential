@@ -1,3 +1,5 @@
+//GENERATES h1 - h6 and .h1 - .h6 classes with font size given in
+//../Settings/_fonts.scss
 
 @each $headlineClass, $headlineSize in $headlineSizes {
   #{$headlineClass}, .#{$headlineClass} {

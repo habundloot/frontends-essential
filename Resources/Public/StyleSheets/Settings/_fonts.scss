@@ -1,7 +1,9 @@
 //CHANGE ONLY IF YOU KNOW WHAT YOU ARE DOING!
+
 $remBase: 16px;
 
-// SET FONT-SIZES
+// SET your font sizes
+
 $headlineSizes: (
         h1: 40px,
         h2: 32px,
@@ -22,11 +24,13 @@ $headlineSizes: (
   }
 }
 
-// EMBED YOUR FONTS IN ../FONTS FOLDER:
+// SAVE your fonts in ../Fonts folder:
 // @include font-face("FONT NAME", FILENAME);
+
 @include font-face("Roboto Bold", Roboto-Bold);
 @include font-face("Roboto Regular", Roboto-Regular);
 
 // SET HEADLINE AND PARAGRAPH FONT
-$headlineFont: Times, sans-serif;
-$paragraphFont: Times, sans-serif;
+
+$headlineFont: Roboto-Bold, sans-serif;
+$paragraphFont: Roboto-Regular, sans-serif;
