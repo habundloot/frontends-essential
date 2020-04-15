@@ -1,3 +1,4 @@
 .idea
-Resources/Public/Vendor
+!Resources/Public/*
+Resources/Public/dist
 node_modules
