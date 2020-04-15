@@ -1,6 +1,29 @@
 {
+  "name": "fe-essentials",
+  "version": "1.0.0",
+  "description": "Frontend Essential Bundle based on Webpack",
+  "private": true,
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/habundloot/frontends-essential.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/habundloot/frontends-essential/issues"
+  },
+  "homepage": "https://github.com/habundloot/frontends-essential#readme",
   "dependencies": {
-    "bootstrap": "^4.4",
-    "jquery": "^3.4"
+    "bootstrap": "^4.4.1",
+    "jquery": "^3.5.0",
+    "popper.js": "^1.16.1"
+  },
+  "devDependencies": {
+    "webpack": "^4.42.1",
+    "webpack-cli": "^3.3.11"
   }
 }
