@@ -3,7 +3,25 @@
 ### -> Under Construction <-
 
 Just a small library based on SCSS to
-optionally extend bootstrap and start front end developing quick
+optionally extend bootstrap and start frontend developing!
+
+### Webpack:
+Please just work in the Resources/Private/src folder.<br>
+The Resources/Public/dist folder serves the minified project
+ready files.
+
+To start compiling just fire
+```
+ npm run build
+```
+
+in the terminal. This will execute the webpack and store the
+new files in the Resources/Public/dist.
+
+To make webpack watch the project an compile on changes hit
+```
+ npm run build --watch
+```
 
 ### Includes:
 
@@ -21,24 +39,9 @@ will output the following:
 }
 ```
 
-You can find it here - [Mixins/_unitize.scss](Resources/Public/StyleSheets/Mixins/_unitize.scss)
+You can find it here - [Mixins/_unitize.scss](Resources/Private/src/StyleSheets/Mixins/_unitize.scss)
 
 ---
-
-```
- @include prefix(attribute, 16px, (pref1 pref2 pref3));
-```
-
-will output the following:
-```
-{
-  -pref1-attribute: 16px;
-  -pref2-attribute: 16px;
-  attribute: 16px;
-}
-```
-
-You can find it here - [Mixins/_prefix.scss](Resources/Public/StyleSheets/Mixins/_prefix.scss)
 
 
 

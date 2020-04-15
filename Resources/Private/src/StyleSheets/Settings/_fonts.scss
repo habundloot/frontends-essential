@@ -16,11 +16,12 @@ $headlineSizes: (
 @mixin font-face($name, $file) {
   @font-face {
     font-family: "#{$name}";
-    src: url("../Fonts/#{$file}.eot");
-    src: url("../Fonts/#{$file}.eot?#iefix") format("embedded-opentype"),
-    url("../Fonts/#{$file}.woff") format("woff"),
-    url("../Fonts/#{$file}.ttf") format("truetype"),
-    url("../Fonts/#{$file}.svg?#webfont") format("svg");
+    src: url("../Fonts/#{$file}.ttf") format("truetype");
+
+    // OTHER formats, just comment them in below or replace the path above.
+    //src: url("../Fonts/#{$file}.woff") format("woff"),
+    //url("../Fonts/#{$file}.eot"),
+    //url("../Fonts/#{$file}.svg?#webfont") format("svg");
   }
 }
 
