@@ -17,6 +17,11 @@ $headlineSizes: (
   @font-face {
     font-family: "#{$name}";
     src: url("../Fonts/#{$file}.ttf") format("truetype");
+
+    // OTHER formats, just comment them in below or replace the path above.
+    //src: url("../Fonts/#{$file}.woff") format("woff"),
+    //url("../Fonts/#{$file}.eot"),
+    //url("../Fonts/#{$file}.svg?#webfont") format("svg");
   }
 }
 
