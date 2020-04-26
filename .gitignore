@@ -2,3 +2,4 @@
 !Resources/Public/*
 Resources/Public/dist
 node_modules
+_data
